@@ -10,6 +10,82 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.regex.Pattern;
 
+class Empleado {
+
+
+    private int sucursal;
+    private int zona;
+    private int dni;
+    private String nombre;
+    private int edad;
+    private int sueldo;
+    private int cantHijos;
+    private int cantPersonas;
+
+    public int getCantHijos() {
+        return cantHijos;
+    }
+
+    public void setCantHijos(int cantHijos) {
+        this.cantHijos = cantHijos;
+    }
+
+    public int getCantPersonas() {
+        return cantPersonas;
+    }
+
+    public void setCantPersonas(int cantPersonas) {
+        this.cantPersonas = cantPersonas;
+    }
+
+    public int getSueldo() {
+        return sueldo;
+    }
+
+    public void setSueldo(int sueldo) {
+        this.sueldo = sueldo;
+    }
+
+    public int getDni() {
+        return dni;
+    }
+
+    public void setDni(int dni) {
+        this.dni = dni;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public int getZona() {
+        return zona;
+    }
+
+    public void setZona(int zona) {
+        this.zona = zona;
+    }
+
+    public int getSucursal() {
+        return sucursal;
+    }
+
+    public void setSucursal(int sucursal) {
+        this.sucursal = sucursal;
+    }
+}
 
 public class Main {
 
